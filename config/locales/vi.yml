@@ -1,0 +1,25 @@
+vi:
+  static_page:
+    home:
+      title: "Trang chu"
+      text1: "Sample App"
+      link1: "Ruby on Rails Tutorial"
+
+    about:
+      title: "Ve chung toi"
+      text1: "The"
+      link1: "Ruby on Rails Tutorial"
+      link2: "Learn Enough"
+      link3: "book"
+      link4: "screencast series"
+
+    help:
+      title: "Tro giup"
+      text1: " Nhận trợ giúp về Hướng dẫn Ruby on Rails tại"
+      text2: "To get help on this sample app, see the"
+      text3: "book."
+      link1: "Rails Tutorial Help page."
+      link2: "Ruby on Rails Tutorial"
+
+    english: "English"
+    vietnamese: "Vietnamese"
