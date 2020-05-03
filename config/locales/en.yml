@@ -1,0 +1,33 @@
+en:
+  time:
+    formats:
+      own: "%H:%M:%S, %d %B"
+      default: "%d-%m-%Y"
+      long: "%d %B, %Y"
+      short: "%d %b"
+  currency: "$"
+
+  static_page:
+    home:
+      title: "Home"
+      text1: "Sample App"
+      link1: "Ruby on Rails Tutorial"
+
+    about:
+      title: "About"
+      text1: "The"
+      link1: "Ruby on Rails Tutorial"
+      link2: "Learn Enough"
+      link3: "book"
+      link4: "screencast series"
+
+    help:
+      title: "Help"
+      text1: "Get help on the Ruby on Rails Tutorial at the"
+      text2: "To get help on this sample app, see the"
+      text3: "book."
+      link1: "Rails Tutorial Help page."
+      link2: "Ruby on Rails Tutorial"
+
+    english: "English"
+    vietnamese: "Vietnamese"
