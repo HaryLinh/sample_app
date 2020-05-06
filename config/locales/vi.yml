@@ -4,6 +4,8 @@ vi:
       title: "Trang chu"
       text1: "Sample App"
       link1: "Ruby on Rails Tutorial"
+      sign-up: "Dang ky ngay"
+      sample: "Sample App"
 
     about:
       title: "Ve chung toi"
@@ -20,6 +22,13 @@ vi:
       text3: "book."
       link1: "Rails Tutorial Help page."
       link2: "Ruby on Rails Tutorial"
+
+      contact:
+        title: "Contact"
+        intro: "Ruby on Rails Tutorial"
+      new:
+        title: "New"
+        intro: "This will be a signup page for new users"
 
     english: "English"
     vietnamese: "Vietnamese"
