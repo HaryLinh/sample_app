@@ -11,3 +11,6 @@ help:
   servers:
     link1: "https://www.railstutorial.org/help"
     link2: "https://www.railstutorial.org/book"
+contact:
+  servers:
+    link1: "https://www.railstutorial.org/help"

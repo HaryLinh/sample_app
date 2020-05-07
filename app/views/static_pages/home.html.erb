@@ -1,5 +1,12 @@
-<%= provide(:title, t "static_page.home.title") %>
-<h1><%= t "static_page.home.text1"%>  </h1>
-<p> <%= link_to t("static_page.home.link1"), Settings.home.servers.link1 %></p>
-<p><%= l Date.today, formats: :long %></p>
+<div class="center jumbotron">
+  <h1><%= t "static_page.home.text1" %></h1>
+  <h2>
+    <%= t "static_page.help.text1" %>
+    <%= link_to t("static_page.home.link1"), Settings.help.servers.link1 %>
+    <%= t "static_page.home.text1" %>
+  </h2>
+    <%= link_to t("static_page.home.sign-up"), signup_path, class: "btn btn-lg btn-primary" %>
+</div>
+<%= link_to image_tag("3708143.jpg", alt: "Rails logo", class: "img"),
+"https://rubyonrails.org/" %>
 
