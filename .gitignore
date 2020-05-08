@@ -37,6 +37,7 @@ gkc_*
 /.vscode/settings.json
 .rdb
 /bin/
+/test/*
 
 config/settings.local.yml
 config/settings/*.local.yml
