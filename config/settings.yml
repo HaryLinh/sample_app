@@ -14,3 +14,11 @@ help:
 contact:
   servers:
     link1: "https://www.railstutorial.org/help"
+reg:
+  email: !ruby/regexp /\A[\w+\-.]+@[a-z\d\-.]+\.[a-z]+\z/i
+name:
+  maximum: 50
+email:
+  maximum: 255
+password:
+  minimum: 6
