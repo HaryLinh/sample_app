@@ -9,33 +9,50 @@ en:
 
   static_page:
     home:
-      title: "Home"
+      title: "Trang chủ"
       text1: "Sample App"
       link1: "Ruby on Rails Tutorial"
-      sign-up: "Sign up now"
+      sign-up: "Đăng ký ngay"
       sample: "Sample App"
 
     about:
-      title: "About"
+      title: "Về chúng ta"
       text1: "The"
       link1: "Ruby on Rails Tutorial"
-      link2: "Learn Enough"
-      link3: "book"
+      link2: "Đầy đủ sách"
+      link3: "Sách"
       link4: "screencast series"
 
     help:
-      title: "Help"
-      text1: "Get help on the Ruby on Rails Tutorial at the"
-      text2: "To get help on this sample app, see the"
-      text3: "book."
-      link1: "Rails Tutorial Help page."
+      title: "Giúp đỡ"
+      text1: "Để nhận trợ giúp về ứng dụng mẫu này, hãy xem"
+      text2: "Để nhận trợ giúp về ứng dụng mẫu này, hãy xem"
+      text3: "Sach"
+      link1: "Rails Tutorial giup do."
       link2: "Ruby on Rails Tutorial"
+
     contact:
-      title: "Contact"
-      intro: "Ruby on Rails Tutorial"
+      title: "Liên hệ"
+      intro: "Aolo cho tôi"
+
     new:
-      title: "New"
-      intro: "This will be a signup page for new users"
+      title: "Tin tức"
+      intro: "Đây là trang tin tức"
+      sign-up: "Đăng ký"
 
     english: "English"
     vietnamese: "Vietnamese"
+
+  user:
+    confirm_pass: "Chấp thuận"
+    create_accout: "Tạo tài khoản"
+
+  flash:
+    title: "Chào mừng đến với sample app"
+    fail: "Vui lòng tạo lại"
+
+  share:
+    form_contains: "Nội dung form"
+
+  new:
+    title: "Tạo người dùng mới"

@@ -1,14 +1,14 @@
 vi:
   static_page:
     home:
-      title: "Trang chu"
+      title: "Home"
       text1: "Sample App"
       link1: "Ruby on Rails Tutorial"
-      sign-up: "Dang ky ngay"
+      sign-up: "Sign up now"
       sample: "Sample App"
 
     about:
-      title: "Ve chung toi"
+      title: "About"
       text1: "The"
       link1: "Ruby on Rails Tutorial"
       link2: "Learn Enough"
@@ -16,8 +16,8 @@ vi:
       link4: "screencast series"
 
     help:
-      title: "Tro giup"
-      text1: " Nhận trợ giúp về Hướng dẫn Ruby on Rails tại"
+      title: "Help"
+      text1: " Get help with the Ruby on Rails Tutorial at"
       text2: "To get help on this sample app, see the"
       text3: "book."
       link1: "Rails Tutorial Help page."
@@ -26,9 +26,25 @@ vi:
       contact:
         title: "Contact"
         intro: "Ruby on Rails Tutorial"
+
       new:
         title: "New"
         intro: "This will be a signup page for new users"
+        sign-up: "Sign up"
 
     english: "English"
     vietnamese: "Vietnamese"
+
+  user:
+    confirm_pass: "Confirmation"
+    create_accout: "Create my account"
+
+  flash:
+    title: "Welcome to the Sample App!"
+    fail: "fail"
+
+  share:
+    form_contains: "The form contains"
+
+  new:
+    title: "New user"
