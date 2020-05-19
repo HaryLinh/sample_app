@@ -4,6 +4,7 @@ git_source(:github) do |repo_name|
   "https://github.com/#{repo_name}.git"
 end
 
+gem "jquery-rails", "4.3.1"
 gem "bcrypt", "3.1.13"
 gem "config"
 gem "rails-i18n"

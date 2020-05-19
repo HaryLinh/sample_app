@@ -6,6 +6,9 @@ vi:
       link1: "Ruby on Rails Tutorial"
       sign-up: "Sign up now"
       sample: "Sample App"
+      login: "Login"
+      logout: "Logout"
+      account: "Account"
 
     about:
       title: "About"
@@ -38,6 +41,10 @@ vi:
   user:
     confirm_pass: "Confirmation"
     create_accout: "Create my account"
+    users: "Users"
+    profile: "Profile"
+    settings: "Settings"
+
 
   flash:
     title: "Welcome to the Sample App!"
@@ -48,3 +55,10 @@ vi:
 
   new:
     title: "New user"
+
+  new_session:
+    title: "Login"
+    login: "Login"
+    signup_now: "sign up now"
+    danger: "Invalid email/password combination"
+    new_user: "New user ?"
