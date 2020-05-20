@@ -56,3 +56,9 @@ en:
 
   new:
     title: "Tạo người dùng mới"
+
+  new_session:
+    title : "Đâng nhập"
+    login: "Đăng nhập"
+    signup_now: "Đăng kí ngay"
+    danger: "Tài khoản không hợp lệ"
