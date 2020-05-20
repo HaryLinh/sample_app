@@ -62,3 +62,4 @@ vi:
     signup_now: "sign up now"
     danger: "Invalid email/password combination"
     new_user: "New user ?"
+    remember: "Remember me on this computer"
