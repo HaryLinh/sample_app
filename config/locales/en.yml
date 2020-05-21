@@ -46,10 +46,26 @@ en:
   user:
     confirm_pass: "Chấp thuận"
     create_accout: "Tạo tài khoản"
+    users: "Người dùng"
+    profile: "Tiểu sử"
+    settings: "Cài đặt"
+    delete: "Xoá"
+    confirm: "Chắc chưa?"
+    edit:
+      title: "Cập nhật"
+      confirmation: "Chấp thuận"
+      save: "Lưu"
+      intro: "Cập nhật người đùng"
+    index:
+      title: "Danh sách người dùng"
 
   flash:
     title: "Chào mừng đến với sample app"
     fail: "Vui lòng tạo lại"
+    login: "Vui lòng đăng nhập"
+    ok: "ok"
+    delete_faill: "Loi"
+    fail_find_user: "Không tìm thấy người dùng"
 
   share:
     form_contains: "Nội dung form"
