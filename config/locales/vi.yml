@@ -44,12 +44,23 @@ vi:
     users: "Users"
     profile: "Profile"
     settings: "Settings"
-
+    delete: "Delete"
+    confirm: "You sure?"
+    edit:
+      title: "Edit user"
+      confirmation: "Confirmation"
+      save: "Save"
+      intro: "Update your profile"
+    index:
+      title: "List user"
 
   flash:
     title: "Welcome to the Sample App!"
     fail: "fail"
-
+    login: "Please login"
+    ok: "ok"
+    delete_faill: "delete_faill"
+    fail_find_user: "fail find user"
   share:
     form_contains: "The form contains"
 
