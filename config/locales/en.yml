@@ -79,3 +79,16 @@ en:
     signup_now: "Đăng kí ngay"
     danger: "Tài khoản không hợp lệ"
     remember: "Nhớ tôi"
+
+  user_mailer:
+    subject: "Kich hoat tai khoan"
+    hi: "hi"
+    to: "Anhlinh12369@icloud.com"
+
+  activation:
+    account_active_success: "Đã kích hoạt"
+    account_active_fail: "Không thể kích hoạt "
+    title: "Kích hoạt tài khoản"
+    hi: "Chào"
+    welcome: "Chào mừng đến với sample app"
+    active: "Kích hoạt"
