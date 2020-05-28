@@ -74,6 +74,8 @@ vi:
     danger: "Invalid email/password combination"
     new_user: "New user ?"
     remember: "Remember me on this computer"
+    active: "Account is not active"
+    forgot_password: "forgot password"
 
   user_mailer:
     subject: "Active account"
@@ -87,3 +89,12 @@ vi:
     hi: "Hi"
     welcome: "Welcome to .........."
     active: "Active"
+
+  password_reset:
+    title: "passwordreset"
+    hi: "To reset your password click the link below:"
+    expried: "This link will expire in two hours instruction: If you did not request your password to be reset, please ignore this email and your password will stay as it is."
+    send_email: "Email sent with password reset instructions"
+    invalid_email: "Email is invalid"
+    update_user: "update user"
+    password_reset: "new password reset"
