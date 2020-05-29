@@ -74,3 +74,16 @@ vi:
     danger: "Invalid email/password combination"
     new_user: "New user ?"
     remember: "Remember me on this computer"
+
+  user_mailer:
+    subject: "Active account"
+    hi: "Chào"
+    to: "Anhlinh12369@icloud.com"
+
+  activation:
+    account_active_success: "Actived"
+    account_active_fail: "Inactived"
+    title: "Active account"
+    hi: "Hi"
+    welcome: "Welcome to .........."
+    active: "Active"
