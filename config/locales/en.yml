@@ -1,94 +1,114 @@
-en:
-  time:
-    formats:
-      own: "%H:%M:%S, %d %B"
-      default: "%d-%m-%Y"
-      long: "%d %B, %Y"
-      short: "%d %b"
-  currency: "$"
-
+vi:
   static_page:
     home:
-      title: "Trang chủ"
+      title: "Home"
       text1: "Sample App"
       link1: "Ruby on Rails Tutorial"
-      sign-up: "Đăng ký ngay"
+      sign-up: "Sign up now"
       sample: "Sample App"
+      login: "Login"
+      logout: "Logout"
+      account: "Account"
 
     about:
-      title: "Về chúng ta"
+      title: "About"
       text1: "The"
       link1: "Ruby on Rails Tutorial"
-      link2: "Đầy đủ sách"
-      link3: "Sách"
+      link2: "Learn Enough"
+      link3: "book"
       link4: "screencast series"
 
     help:
-      title: "Giúp đỡ"
-      text1: "Để nhận trợ giúp về ứng dụng mẫu này, hãy xem"
-      text2: "Để nhận trợ giúp về ứng dụng mẫu này, hãy xem"
-      text3: "Sach"
-      link1: "Rails Tutorial giup do."
+      title: "Help"
+      text1: " Get help with the Ruby on Rails Tutorial at"
+      text2: "To get help on this sample app, see the"
+      text3: "book."
+      link1: "Rails Tutorial Help page."
       link2: "Ruby on Rails Tutorial"
 
-    contact:
-      title: "Liên hệ"
-      intro: "Aolo cho tôi"
+      contact:
+        title: "Contact"
+        intro: "Ruby on Rails Tutorial"
 
-    new:
-      title: "Tin tức"
-      intro: "Đây là trang tin tức"
-      sign-up: "Đăng ký"
+      new:
+        title: "New"
+        intro: "This will be a signup page for new users"
+        sign-up: "Sign up"
 
     english: "English"
     vietnamese: "Vietnamese"
 
   user:
-    confirm_pass: "Chấp thuận"
-    create_accout: "Tạo tài khoản"
-    users: "Người dùng"
-    profile: "Tiểu sử"
-    settings: "Cài đặt"
-    delete: "Xoá"
-    confirm: "Chắc chưa?"
+    confirm_pass: "Confirmation"
+    create_accout: "Create my account"
+    users: "Users"
+    profile: "Profile"
+    settings: "Settings"
+    delete: "Delete"
+    confirm: "You sure?"
     edit:
-      title: "Cập nhật"
-      confirmation: "Chấp thuận"
-      save: "Lưu"
-      intro: "Cập nhật người đùng"
+      title: "Edit user"
+      confirmation: "Confirmation"
+      save: "Save"
+      intro: "Update your profile"
     index:
-      title: "Danh sách người dùng"
+      title: "List user"
 
   flash:
-    title: "Chào mừng đến với sample app"
-    fail: "Vui lòng tạo lại"
-    login: "Vui lòng đăng nhập"
+    title: "Welcome to the Sample App!"
+    fail: "fail"
+    login: "Please login"
     ok: "ok"
-    delete_faill: "Loi"
-    fail_find_user: "Không tìm thấy người dùng"
-
+    delete_faill: "delete_faill"
+    fail_find_user: "fail find user"
   share:
-    form_contains: "Nội dung form"
+    form_contains: "The form contains"
 
   new:
-    title: "Tạo người dùng mới"
+    title: "New user"
 
   new_session:
-    title : "Đâng nhập"
-    login: "Đăng nhập"
-    signup_now: "Đăng kí ngay"
-    danger: "Tài khoản không hợp lệ"
-    remember: "Nhớ tôi"
+    title: "Login"
+    login: "Login"
+    signup_now: "sign up now"
+    danger: "Invalid email/password combination"
+    new_user: "New user ?"
+    remember: "Remember me on this computer"
+    active: "Account is not active"
+    forgot_password: "forgot password"
 
   user_mailer:
-    subject: "Kich hoat tai khoan"
-    hi: "hi"
+    subject: "Active account"
+    hi: "Chào"
     to: "Anhlinh12369@icloud.com"
 
   activation:
-    account_active_success: "Đã kích hoạt"
-    account_active_fail: "Không thể kích hoạt "
-    title: "Kích hoạt tài khoản"
-    hi: "Chào"
-    welcome: "Chào mừng đến với sample app"
-    active: "Kích hoạt"
+    account_active_success: "Actived"
+    account_active_fail: "Inactived"
+    title: "Active account"
+    hi: "Hi"
+    welcome: "Welcome to .........."
+    active: "Active"
+
+  password_reset:
+    title: "passwordreset"
+    hi: "To reset your password click the link below:"
+    expried: "This link will expire in two hours instruction: If you did not request your password to be reset, please ignore this email and your password will stay as it is."
+    send_email: "Email sent with password reset instructions"
+    invalid_email: "Email is invalid"
+    update_user: "update user"
+    password_reset: "new password reset"
+    confirm: "confirm"
+    account_active_fail: "Email is invalid"
+
+  forgot_password:
+    title: "Forgot password"
+    submit: "Submit"
+    update_user: "Update user"
+    password_reset: "reset password"
+    confirm: "confirm"
+
+  mailer:
+    password_error: "password is not blank"
+    successful_reset: "Change password successfully"
+    password_failed: "Change password fail"
