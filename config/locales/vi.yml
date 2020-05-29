@@ -98,3 +98,4 @@ vi:
     invalid_email: "Email is invalid"
     update_user: "update user"
     password_reset: "new password reset"
+    confirm: "confirm"

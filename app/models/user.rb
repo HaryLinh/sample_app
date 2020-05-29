@@ -9,7 +9,7 @@ class User < ApplicationRecord
   validates :email, format: { with: VALID_EMAIL_REGEX },
                              presence: true, uniqueness: true, length: { maximum: Settings.email.maximum }
 
-  validates :password, presence: true, length: { minimum: Settings.password.minimum },allow_nil: true
+  validates :password, presence: true, length: { minimum: Settings.password.minimum }, allow_nil: true
 
   has_secure_password
   class << self

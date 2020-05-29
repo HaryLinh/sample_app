@@ -33,6 +33,7 @@ class PasswordResetsController < ApplicationController
   end
 
   private
+
   def load_user
     @user = User.find_by email: params[:email]
     return if @user
