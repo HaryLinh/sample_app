@@ -79,7 +79,8 @@ en:
     signup_now: "Đăng kí ngay"
     danger: "Tài khoản không hợp lệ"
     remember: "Nhớ tôi"
-
+    active: "Tài khoản chưa kích hoạt"
+    forgot_password: "Quên tài khoản"
   user_mailer:
     subject: "Kich hoat tai khoan"
     hi: "hi"
@@ -92,3 +93,15 @@ en:
     hi: "Chào"
     welcome: "Chào mừng đến với sample app"
     active: "Kích hoạt"
+
+  password_reset:
+    title: "Reset mật khẩu"
+    hi: "Để đặt lại mật khẩu của bạn, nhấp vào liên kết dưới đây:"
+    expried: "Liên kết này sẽ hết hạn trong hai giờ."
+    instruction: "Nếu bạn không yêu cầu đặt lại mật khẩu, vui lòng bỏ qua email này và mật khẩu của bạn sẽ ở lại như nó là"
+    send_email: "Email được gửi với hướng dẫn đặt lại mật khẩu"
+    update_user: "Cập nhập người dùng"
+
+  forgot_password:
+    title: "Quên tài khoản"
+    submit: "Gửi"
