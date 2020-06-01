@@ -1,7 +1,7 @@
 class UsersController < ApplicationController
-  before_action :logged_in_user, except: [:new,:create]
-  before_action :load_user, only: [:show, :update, :edit, :destroy]
-  before_action :admin_user, only: [:destroy]
+  before_action :logged_in_user, except: %i(new create)
+  before_action :load_user, only: %i(show update edit destroy)
+  before_action :is_admin_user?, only: :destroy
 
   def index
     @users = User.page(params[:page]).per(Settings.record_per_page)
@@ -11,7 +11,9 @@ class UsersController < ApplicationController
     @user = User.new
   end
 
-  def show; end
+  def show
+    @microposts = @user.microposts.page(params[:page]).per(Settings.record_per_page)
+  end
 
   def create
     @user = User.new user_params
@@ -51,26 +53,21 @@ class UsersController < ApplicationController
     params.require(:user).permit User::USER_PARAMS
   end
 
-  def logged_in_user
-    return if logger_in?
-    store_location
-    flash[:danger] = t "flash.login"
-    redirect_to login_url
-  end
-
   def correct_user
     return if current_user? @user
+
     redirect_to root_url
   end
 
   def load_user
     @user = User.find_by id: params[:id]
     return if @user
+
     flash[:error] = t "flash.fail_find_user"
     redirect_to root_url
   end
 
-   def admin_user
+  def is_admin_user?
     redirect_to root_url unless current_user.admin?
   end
 end

@@ -1,89 +1,133 @@
-vi:
+en:
+  time:
+    formats:
+      own: "%H:%M:%S, %d %B"
+      default: "%d-%m-%Y"
+      long: "%d %B, %Y"
+      short: "%d %b"
+  currency: "$"
+
   static_page:
     home:
-      title: "Home"
+      title: "Trang chủ"
       text1: "Sample App"
       link1: "Ruby on Rails Tutorial"
-      sign-up: "Sign up now"
+      sign-up: "Đăng ký ngay"
       sample: "Sample App"
-      login: "Login"
-      logout: "Logout"
-      account: "Account"
 
     about:
-      title: "About"
+      title: "Về chúng ta"
       text1: "The"
       link1: "Ruby on Rails Tutorial"
-      link2: "Learn Enough"
-      link3: "book"
+      link2: "Đầy đủ sách"
+      link3: "Sách"
       link4: "screencast series"
 
     help:
-      title: "Help"
-      text1: " Get help with the Ruby on Rails Tutorial at"
-      text2: "To get help on this sample app, see the"
-      text3: "book."
-      link1: "Rails Tutorial Help page."
+      title: "Giúp đỡ"
+      text1: "Để nhận trợ giúp về ứng dụng mẫu này, hãy xem"
+      text2: "Để nhận trợ giúp về ứng dụng mẫu này, hãy xem"
+      text3: "Sach"
+      link1: "Rails Tutorial giup do."
       link2: "Ruby on Rails Tutorial"
 
-      contact:
-        title: "Contact"
-        intro: "Ruby on Rails Tutorial"
+    contact:
+      title: "Liên hệ"
+      intro: "Aolo cho tôi"
 
-      new:
-        title: "New"
-        intro: "This will be a signup page for new users"
-        sign-up: "Sign up"
+    new:
+      title: "Tin tức"
+      intro: "Đây là trang tin tức"
+      sign-up: "Đăng ký"
 
     english: "English"
     vietnamese: "Vietnamese"
 
   user:
-    confirm_pass: "Confirmation"
-    create_accout: "Create my account"
-    users: "Users"
-    profile: "Profile"
-    settings: "Settings"
-    delete: "Delete"
-    confirm: "You sure?"
+    confirm_pass: "Chấp thuận"
+    create_accout: "Tạo tài khoản"
+    users: "Người dùng"
+    profile: "Tiểu sử"
+    settings: "Cài đặt"
+    delete: "Xoá"
+    confirm: "Chắc chưa?"
     edit:
-      title: "Edit user"
-      confirmation: "Confirmation"
-      save: "Save"
-      intro: "Update your profile"
+      title: "Cập nhật"
+      confirmation: "Chấp thuận"
+      save: "Lưu"
+      intro: "Cập nhật người đùng"
     index:
-      title: "List user"
+      title: "Danh sách người dùng"
 
   flash:
-    title: "Welcome to the Sample App!"
-    fail: "fail"
-    login: "Please login"
+    title: "Chào mừng đến với sample app"
+    fail: "Vui lòng tạo lại"
+    login: "Vui lòng đăng nhập"
     ok: "ok"
-    delete_faill: "delete_faill"
-    fail_find_user: "fail find user"
+    delete_faill: "Loi"
+    fail_find_user: "Không tìm thấy người dùng"
+
   share:
-    form_contains: "The form contains"
+    form_contains: "Nội dung form"
+    error: "Lỗi"
 
   new:
-    title: "New user"
+    title: "Tạo người dùng mới"
 
   new_session:
-    title: "Login"
-    login: "Login"
-    signup_now: "sign up now"
-    danger: "Invalid email/password combination"
-    new_user: "New user ?"
-    remember: "Remember me on this computer"
+    title : "Đâng nhập"
+    login: "Đăng nhập"
+    signup_now: "Đăng kí ngay"
+    danger: "Tài khoản không hợp lệ"
+    remember: "Nhớ tôi"
+    active: "Tài khoản chưa kích hoạt"
+    forgot_password: "Quên tài khoản"
 
   user_mailer:
-    subject: "Active account"
-    hi: "Chào"
+    subject: "Kich hoat tai khoan"
+    hi: "hi"
     to: "Anhlinh12369@icloud.com"
 
   activation:
-    account_active_success: "Actived"
-    account_active_fail: "Inactived"
-    title: "Active account"
-    hi: "Hi"
-    welcome: "Welcome to .........."
-    active: "Active"
+    account_active_success: "Đã kích hoạt"
+    account_active_fail: "Không thể kích hoạt "
+    title: "Kích hoạt tài khoản"
+    hi: "Chào"
+    welcome: "Chào mừng đến với sample app"
+    active: "Kích hoạt"
+
+  password_reset:
+    title: "Reset mật khẩu"
+    hi: "Để đặt lại mật khẩu của bạn, nhấp vào liên kết dưới đây:"
+    expried: "Liên kết này sẽ hết hạn trong hai giờ."
+    instruction: "Nếu bạn không yêu cầu đặt lại mật khẩu, vui lòng bỏ qua email này và mật khẩu của bạn sẽ ở lại như nó là"
+    send_email: "Email được gửi với hướng dẫn đặt lại mật khẩu"
+    update_user: "Cập nhập người dùng"
+    account_active_fail: "Email không tồn tại"
+
+  forgot_password:
+    title: "Quên tài khoản"
+    submit: "Gửi"
+    update_user: "Cập nhật người dùng"
+    password_reset: "Mật khẩu mới"
+    confirm: "Chấp nhận"
+
+  mailer:
+    password_error: "Mật khẩu không được bỏ trống"
+    successful_reset: "Đổi mật khẩu thành công"
+    password_failed: "Đổi mật khẩu thất bại"
+
+  micropost:
+    created: "Bài đăng đã được tạo"
+    deleted: "Bài đăng đã được xóa"
+    format_image: "Không đúng định dạng ảnh"
+    size_max_image: "Ảnh vượt quá 5MB"
+    delete: "Xoá"
+    sure: "Bạn chắc chứ ?"
+    feed: "Danh sách bài viết"
+    post: "Đăng bởi"
+    ago: "Trước"
+    compose: "Viết gì đó đi bạn ơi"
+    title: "Bài đăng"
+    deleted_fail: "Không thể xóa micropost"
+    created_fail: "Không thể tạo micropost"
