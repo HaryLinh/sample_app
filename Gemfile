@@ -4,6 +4,9 @@ git_source(:github) do |repo_name|
   "https://github.com/#{repo_name}.git"
 end
 
+gem "image_processing", "1.9.3"
+gem "mini_magick", "4.9.5"
+gem "active_storage_validations", "0.8.2"
 gem "figaro"
 gem "kaminari"
 gem "bootstrap-kaminari-views"
@@ -12,7 +15,7 @@ gem "jquery-rails", "4.3.1"
 gem "bcrypt", "3.1.13"
 gem "config"
 gem "rails-i18n"
-gem "rails", "~> 5.1.4"
+gem "rails", "~> 5.2.0"
 gem "sqlite3"
 gem "puma", "~> 3.7"
 gem "sass-rails", "~> 5.0"

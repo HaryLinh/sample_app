@@ -1,4 +1,5 @@
 class User < ApplicationRecord
+  has_many :microposts, dependent: :destroy
   attr_accessor :remember_token, :activation_token, :reset_token
   VALID_EMAIL_REGEX = Settings.reg.email
   USER_PARAMS = [:name, :email, :password, :password_confirmation].freeze
@@ -59,6 +60,9 @@ class User < ApplicationRecord
     UserMailer.password_reset(self).deliver_now
   end
 
+  def feed
+    microposts
+  end
   private
   def email_downcase
     email.downcase!

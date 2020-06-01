@@ -19,10 +19,8 @@ class PasswordResetsController < ApplicationController
   def edit; end
 
   def update
-    if user_params[:password].empty?
-      flash[:danger] = t "mailer.password_error"
-      render :edit
-    elsif @user.update_attributes user_params
+
+    if @user.update_attributes user_params
       log_in @user
       flash[:success] = t "mailer.successful_reset"
       redirect_to @user
