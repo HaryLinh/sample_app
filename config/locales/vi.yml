@@ -69,6 +69,7 @@ en:
 
   share:
     form_contains: "Nội dung form"
+    error: "Lỗi"
 
   new:
     title: "Tạo người dùng mới"
@@ -115,3 +116,18 @@ en:
     password_error: "Mật khẩu không được bỏ trống"
     successful_reset: "Đổi mật khẩu thành công"
     password_failed: "Đổi mật khẩu thất bại"
+
+  micropost:
+    created: "Bài đăng đã được tạo"
+    deleted: "Bài đăng đã được xóa"
+    format_image: "Không đúng định dạng ảnh"
+    size_max_image: "Ảnh vượt quá 5MB"
+    delete: "Xoá"
+    sure: "Bạn chắc chứ ?"
+    feed: "Danh sách bài viết"
+    post: "Đăng bởi"
+    ago: "Trước"
+    compose: "Viết gì đó đi bạn ơi"
+    title: "Bài đăng"
+    deleted_fail: "Không thể xóa micropost"
+    created_fail: "Không thể tạo micropost"

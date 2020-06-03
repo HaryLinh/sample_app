@@ -37,12 +37,14 @@ class PasswordResetsController < ApplicationController
   def load_user
     @user = User.find_by email: params[:email]
     return if @user
+
     flash[:error] = t "flash.fail_find_user"
     redirect_to root_url
   end
 
   def valid_user
     return if @user.activated? && @user.authenticated?(:reset, params[:id])
+
     flash[:error] = t "password_reset.account_active_fail"
     redirect_to root_url
   end

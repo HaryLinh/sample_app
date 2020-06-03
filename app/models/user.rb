@@ -1,15 +1,16 @@
 class User < ApplicationRecord
+  has_many :microposts, dependent: :destroy
   attr_accessor :remember_token, :activation_token, :reset_token
   VALID_EMAIL_REGEX = Settings.reg.email
   USER_PARAMS = [:name, :email, :password, :password_confirmation].freeze
   PASSWORD_PARAMS = [:password, :password_confirmation].freeze
-  before_save  :email_downcase
+  before_save :email_downcase
   before_create :create_activation_digest
-  validates :name, presence: true, length: { maximum: Settings.name.maximum }
-  validates :email, format: { with: VALID_EMAIL_REGEX },
-                             presence: true, uniqueness: true, length: { maximum: Settings.email.maximum }
+  validates :name, presence: true, length: { maximum: Settings.name.maximum}
+  validates :email, format: {with: VALID_EMAIL_REGEX},
+                             presence: true, uniqueness: true, length: { maximum: Settings.email.maximum}
 
-  validates :password, presence: true, length: { minimum: Settings.password.minimum }, allow_nil: true
+  validates :password, presence: true, length: {minimum: Settings.password.minimum}, allow_nil: true
 
   has_secure_password
   class << self
@@ -39,6 +40,7 @@ class User < ApplicationRecord
   def authenticated? attribute, token
     digest = send "#{attribute}_digest"
     return false unless digest
+
     BCrypt::Password.new(digest).is_password? token
   end
 
@@ -57,6 +59,10 @@ class User < ApplicationRecord
 
   def send_password_reset_email
     UserMailer.password_reset(self).deliver_now
+  end
+
+  def feed
+    microposts
   end
 
   private

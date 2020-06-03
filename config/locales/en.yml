@@ -63,6 +63,7 @@ vi:
     fail_find_user: "fail find user"
   share:
     form_contains: "The form contains"
+    error: "error"
 
   new:
     title: "New user"
@@ -112,3 +113,17 @@ vi:
     password_error: "password is not blank"
     successful_reset: "Change password successfully"
     password_failed: "Change password fail"
+
+  micropost:
+    created: "Micropost created!"
+    deleted: "Micropost deleted!"
+    format_image: "must be a valid image format"
+    size_max_image: "should be less than 5MB"
+    delete: "delete"
+    sure: "You sure?"
+    post: "Posted"
+    ago: "ago"
+    compose: "Compose new micropost..."
+    title: "micropost"
+    deleted_fail: "Can not delete micropost"
+    created_fail: "Can not create micropost"
