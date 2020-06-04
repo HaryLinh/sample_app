@@ -127,3 +127,9 @@ vi:
     title: "micropost"
     deleted_fail: "Can not delete micropost"
     created_fail: "Can not create micropost"
+
+  follow:
+    follow: "Follow"
+    unfollow: "Unfollow"
+    following: "Following"
+    followers: "Followers"
