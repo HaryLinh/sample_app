@@ -131,3 +131,9 @@ en:
     title: "Bài đăng"
     deleted_fail: "Không thể xóa micropost"
     created_fail: "Không thể tạo micropost"
+
+  follow:
+    follow: "Theo dõi"
+    unfollow: "Hủy theo dõi"
+    following: "Theo dõi"
+    followers: "Người theo dõi"
